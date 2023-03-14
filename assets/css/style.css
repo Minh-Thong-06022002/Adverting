@@ -21,6 +21,9 @@
   height: 90px;
   overflow: hidden;
 }
+.main .header .logo img:hover {
+  cursor: pointer;
+}
 .main .header ul {
   display: flex;
   justify-content: space-around;
@@ -57,25 +60,31 @@
   background-color: #ccc;
   text-transform: uppercase;
   cursor: pointer;
-  background-color: #fff;
+}
+.main .header .call-us:hover {
+  scale: 1.1;
 }
 .main .header .call-us a {
   width: 100%;
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-weight: bold;
   font-family: "Poppins", Poppins, san-serif;
 }
+
 /* slider header */
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
+  height: 780px;
   position: relative;
   margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
+  width: 100%;
+  height: 750px;
   display: none;
 }
 
@@ -109,17 +118,45 @@
 }
 
 /* Caption text */
-.text {
+.mySlides .text {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 40%;
+  left: 10%;
+  width: 80%;
+  text-align: left;
+}
+.mySlides .text h5 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+.mySlides .text h4 {
+  font-size: 80px;
+  color: #ffc000;
+  font-family: 'Kalam', cursive;
+  font-size: 120px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -12px;
+}
+.mySlides .text p {
+  font-size: 25px;
+
+}
+.mySlides img {
   width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+/* The dots/bullets/indicators */
+.slideshow-container .dots {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-5%, -50%);
   text-align: center;
 }
-
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -129,6 +166,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  z-index: 10;
 }
 
 .active,
@@ -150,3 +188,37 @@
     opacity: 1;
   }
 }
+
+.about-us {
+  width: 100%;
+  height: 1200px;
+  position: relative;
+  text-align: center;
+}
+.main .about-us .content_about__us .bgvideo {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.main .about-us .content_about__us {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .about-us .content_about__us h4 {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  margin-top: 30px;
+}
+.main .about-us .content_about__us p {
+  width: 80%;
+  margin: 30px auto 50px auto;
+  font-size: 20px;
+  line-height: 30px;
+  color: #666666;
+}
+ 
