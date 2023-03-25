@@ -190,11 +190,13 @@
 
 .about-us {
   width: 100%;
-  height: 889px;
+  height: 900px;
   position: relative;
   text-align: center;
 }
 .main .about-us .bgvideo {
+  width: 100%;
+  height: 900px;
   z-index: -1;
   position: absolute;
   top: 0;
@@ -219,4 +221,150 @@
 }
 .main .about-us .content_about__us .video_intro {
   object-fit: cover;
+}
+
+.enviroment_company {
+  position: relative;
+  width: 100%;
+  height: 610px;
+}
+.enviroment_company img {
+  width: 100%;
+  height: 610px;
+}
+.enviroment_company .item_enviroment {
+  width: 80%;
+  height: 610px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.enviroment_company .item_enviroment .item {
+  width: 20%;
+  height: auto;
+  text-align: center;
+}
+.enviroment_company .item_enviroment img {
+  width: 60px;
+  height: 60px;
+}
+.enviroment_company .item_enviroment .item h2 {
+  font-size: 32px;
+  color: #fff;
+  margin: 20px auto;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+}
+.enviroment_company .item_enviroment .item p {
+  font-size: 18px;
+  color: #b6b6cd;
+  line-height: 25px;
+}
+
+.our_skill {
+  width: 100%;
+  height: 680px;
+  font-family: Poppins, sans-serif;
+}
+.our_skill .bg_skill {
+  width: 100%;
+  height: 680px;
+  background-image: url("/assets/image/bg_skill.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.our_skill .bg_skill h2 {
+  text-align: center;
+  font-size: 58px;
+  font-weight: 750;
+  padding: 70px 0 30px;
+}
+.our_skill .bg_skill > p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+.our_skill .bg_skill .time_line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 110px auto;
+}
+
+.our_skill .bg_skill .time_line .time p:first-child {
+  font-size: 15px;
+  color: #ffc103;
+  letter-spacing: 2px;
+}
+.our_skill .bg_skill .time_line .time p:not(:first-child) {
+  width: 75%;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 25px auto;
+}
+.our_skill .bg_skill .time_line .time p:not(:first-child):hover {
+  color: #ffc103;
+  cursor: pointer;
+}
+
+.service_offer {
+  width: 100%;
+  height: 680px;
+  font-family: Poppins, sans-serif;
+  background-image: url("/assets/image/bg_service.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-top: 1px solid #ccc;
+}
+.service_offer h2 {
+  text-align: center;
+  font-size: 58px;
+  font-weight: 750;
+  padding: 70px 0 30px;
+}
+.service_offer > p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.service_offer .service .list_service {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_offer .service .list_service .item_service {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 45px auto;
+  text-align: left;
+}
+.service_offer .service .list_service .item_service img {
+  width: 60px;
+  height: 60px;
+  margin-right: 25px;
+}
+.service_offer .service .item_service .content_service h3 a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  line-height: 24px;
+}
+.service_offer .service .item_service .content_service p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #b6b6b6;
+  line-height: 22px;
 }
