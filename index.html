@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adverting</title>
+    <link rel="stylesheet" href="./assets/css/Grid.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
@@ -16,6 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- Link Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </head>
   <body>
     <div class="main">
@@ -27,15 +30,26 @@
           />
         </div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Block</a></li>
-          <li><a href="#">Our Team</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./ourteam.html">Our Team</a></li>
           <li>
             <a href="#">Projects</a>
           </li>
         </ul>
         <div class="call-us"><a href="#">Call us</a></div>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./ourteam.html">Our Team</a></li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+        </ul>
       </div>
       <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
@@ -104,7 +118,7 @@
             give themselves a ‘thumbs up’ for having a perfect blend of big
             agency resources and small agency nimbleness.
           </p>
-          <video class="video_intro" width="1070" height="550" controls>
+          <video class="video_intro" max-width="1070" max-height="550" controls>
             <source
               src="./assets/video/monstroid_backgroundx264.mp4"
               type="video/mp4"
@@ -176,6 +190,121 @@
           </div>
         </div>
       </div>
+      <div class="our_work">
+        <div class="content_work">
+          <h1>Our Works</h1>
+          <p>
+            Over the years we’ve taken hundreds of projects, succeeding in every
+            single one of those!
+          </p>
+          <div class="tabs">
+            <div class="tab-item active" data-electronic="tab-pane">AII</div>
+            <div class="tab-item" data-electronic="cpm">CPM</div>
+            <div class="tab-item" data-electronic="pr">PR</div>
+            <div class="tab-item" data-electronic="phygital">Phygital</div>
+            <div class="tab-item" data-electronic="marketing">
+              Email Marketing
+            </div>
+            <div class="tab-item" data-electronic="creative">Creative</div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="sum_pane">
+          <div class="pane_content">
+            <div class="tab-pane pr cpm">
+              <img src="./assets/image/img_work/img1.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Strategic Planning</h4>
+              </div>
+            </div>
+            <div class="tab-pane cpm phygital">
+              <img src="./assets/image/img_work/img2.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Media Buying</h4>
+              </div>
+            </div>
+            <div class="tab-pane cpm marketing">
+              <img src="./assets/image/img_work/img3.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Creative Advertising</h4>
+              </div>
+            </div>
+            <div class="tab-pane phygital creative">
+              <img src="./assets/image/img_work/img4.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Email Marketing</h4>
+              </div>
+            </div>
+          </div>
+          <div class="pane_content">
+            <div class="tab-pane marketing creative">
+              <img src="./assets/image/img_work/img5.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Content Marketing</h4>
+              </div>
+            </div>
+            <div class="tab-pane pr marketing">
+              <img src="./assets/image/img_work/img6.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Brand Identity</h4>
+              </div>
+            </div>
+            <div class="tab-pane pr phygital">
+              <img src="./assets/image/img_work/img7.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Public Relations</h4>
+              </div>
+            </div>
+            <div class="tab-pane pr phygital">
+              <img src="./assets/image/img_work/img8.png" alt="works" />
+              <div class="link_work">
+                <p>
+                  <i class="fa-solid fa-plus"></i>
+                  <i class="fa-solid fa-globe"></i>
+                  <i class="fa-solid fa-link"></i>
+                </p>
+                <h4>Digital</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn_work">View More</button>
+      </div>
       <div class="service_offer">
         <h2>Services We Offer</h2>
         <p>
@@ -186,7 +315,10 @@
           <div class="list_service">
             <div class="content_service">
               <div class="item_service">
-                <img src="./assets/image/icon1_service-removebg-preview.png" alt="">
+                <img
+                  src="./assets/image/icon1_service-removebg-preview.png"
+                  alt=""
+                />
                 <div class="content_service">
                   <h3><a href="#">Content Marketing</a></h3>
                   <p>
@@ -197,7 +329,10 @@
                 </div>
               </div>
               <div class="item_service">
-                <img src="./assets/image/icon2_service-removebg-preview.png" alt="">
+                <img
+                  src="./assets/image/icon2_service-removebg-preview.png"
+                  alt=""
+                />
                 <div class="content_service">
                   <h3><a href="#">Creative Advertising</a></h3>
                   <p>
@@ -210,18 +345,24 @@
             </div>
             <div class="content_service">
               <div class="item_service">
-                <img src="./assets/image/icon3_service-removebg-preview.png" alt="">
+                <img
+                  src="./assets/image/icon3_service-removebg-preview.png"
+                  alt=""
+                />
                 <div class="content_service">
                   <h3><a href="#"> Media Buying</a></h3>
                   <p>
-                    Our agency offers comprehensive media buying across a majority
-                    of modern information mediums... Newspapers, Printed
-                    Billboards, TV...
+                    Our agency offers comprehensive media buying across a
+                    majority of modern information mediums... Newspapers,
+                    Printed Billboards, TV...
                   </p>
                 </div>
               </div>
               <div class="item_service">
-                <img src="./assets/image/icon4_service-removebg-preview.png" alt="">
+                <img
+                  src="./assets/image/icon4_service-removebg-preview.png"
+                  alt=""
+                />
                 <div class="content_service">
                   <h3><a href="#">Brand Identity</a></h3>
                   <p>
@@ -234,28 +375,291 @@
             </div>
             <div class="content_service">
               <div class="item_service">
-                <img src="./assets/image/icon5_service-removebg-preview.png" alt="">
+                <img
+                  src="./assets/image/icon5_service-removebg-preview.png"
+                  alt=""
+                />
                 <div class="content_service">
                   <h3><a href="#">Digital</a></h3>
                   <p>
-                    Using the new media in a successful way is all about crafting
-                    a conversation that generates leads and sales for your
-                    company.
+                    Using the new media in a successful way is all about
+                    crafting a conversation that generates leads and sales for
+                    your company.
                   </p>
                 </div>
               </div>
               <div class="item_service">
-                <img src="./assets/image/icon6_service-removebg-preview.png" alt="">
+                <img
+                  src="./assets/image/icon6_service-removebg-preview.png"
+                  alt=""
+                />
                 <div class="content_service">
                   <h3><a href="#">Public Relations</a></h3>
                   <p>
-                    We are indeed a holistic, 360* full cycle agency, we are happy
-                    to offer public relations services to all of our customers.
+                    We are indeed a holistic, 360* full cycle agency, we are
+                    happy to offer public relations services to all of our
+                    customers.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- <div class="testimonials">
+        <h3>Testimonials</h3>
+        <p>
+          Having helped to increase the sales for dozens of companies so far,
+          many of our clients wrote nice reviews!
+        </p>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper author">
+            <div class="swiper-slide item_author">
+              <div class="image_author">
+                <img
+                  src="./assets/image/testimonials_author1.jpg"
+                  alt="author1"
+                />
+              </div>
+              <div class="content_author">
+                <p>
+                  <span
+                    ><i
+                      class="fa-sharp fa-solid fa-quote-left"
+                      style="color: #92ff00"
+                    ></i
+                  ></span>
+                  <span
+                    >While we were used to working with a lot of ad agencies for
+                    different parts of our campaigns, last year, after a
+                    refreshingly successful ad campaign by these guys, we’ve
+                    decided to handle all of our activities to them!</span
+                  >
+                </p>
+                <p>- Geraldina Durrell</p>
+              </div>
+            </div>
+            <div class="swiper-slide item_author">
+              <div class="image_author">
+                <img
+                  src="./assets/image/testimonials_author2.jpg"
+                  alt="author2"
+                />
+              </div>
+              <div class="content_author">
+                <p>
+                  <span
+                    ><i
+                      class="fa-sharp fa-solid fa-quote-left"
+                      style="color: #92ff00"
+                    ></i
+                  ></span>
+                  <span
+                    >While we were used to working with a lot of ad agencies for
+                    different parts of our campaigns, last year, after a
+                    refreshingly successful ad campaign by these guys, we’ve
+                    decided to handle all of our activities to them!</span
+                  >
+                </p>
+                <p>- Jourdan Saint-Yves</p>
+              </div>
+            </div>
+            <div class="swiper-slide item_author">
+              <div class="image_author">
+                <img
+                  src="./assets/image/testimonials_author3.jpg"
+                  alt="author3"
+                />
+              </div>
+              <div class="content_author">
+                <p>
+                  <span
+                    ><i
+                      class="fa-sharp fa-solid fa-quote-left"
+                      style="color: #92ff00"
+                    ></i
+                  ></span>
+                  <span
+                    >While we were used to working with a lot of ad agencies for
+                    different parts of our campaigns, last year, after a
+                    refreshingly successful ad campaign by these guys, we’ve
+                    decided to handle all of our activities to them!</span
+                  >
+                </p>
+                <p>- Bryan Thompson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="meet">
+        <h3>Meet the team</h3>
+        <p>
+          Without this team of advertising professionals, there would be no 12
+          HDJ awards or accolades by dozens of happy clients!
+        </p>
+        <div class="members">
+          <div class="list_member">
+            <div class="item_member">
+              <img src="./assets/image/meeting_member1.jpg" alt="member1" />
+              <h5>Elisa Bluesome</h5>
+              <p>BACK-END DEVELOPER</p>
+              <p>
+                Born in New York City, Elisa always felt a strong urge for being
+                an ambitious overachiever. Eventually, by the age of 25 she
+                already had
+              </p>
+              <div class="icon_contact">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="item_member">
+              <img src="./assets/image/meeting_member2.jpg" alt="member2" />
+              <h5>Ruben Burns</h5>
+              <p>PROJECT MANAGER</p>
+              <p>
+                Originally from London, at one point of his sophomore college
+                year, Ruben decided to turn the tables for his career and travel
+                to the US,
+              </p>
+              <div class="icon_contact">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="item_member">
+              <img src="./assets/image/meeting_member3.jpg" alt="member3" />
+              <h5>Alex Buoyega</h5>
+              <p>UI/UX DESIGNER</p>
+              <p>
+                Mr. Buoyega was born in one of Detroit’s poorest blocks, all
+                before pursuing his successful managerial career in the future.
+                For him, the breakthrough happened
+              </p>
+              <div class="icon_contact">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="list_member">
+            <div class="item_member">
+              <img src="./assets/image/meeting_member4.jpg" alt="member4" />
+              <h5>Kenneth Richardson</h5>
+              <p>PROJECT MANAGER</p>
+              <p>
+                A talented creative leader, Kenneth is known among his
+                colleagues for how good his organizing and team leading skills
+                are… Working priorly for a number
+              </p>
+              <div class="icon_contact">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="item_member">
+              <img src="./assets/image/meeting_member5.jpg" alt="member5" />
+              <h5>Jonathan Christman</h5>
+              <p>BACK-END DEVELOPER</p>
+              <p>
+                Being as a devoted family man as he is, it is incredible how
+                Jonathan has time left for managing multi-million dollar
+                contracts, satisfying all of
+              </p>
+              <div class="icon_contact">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="item_member">
+              <img src="./assets/image/meeting_member6.jpg" alt="member6" />
+              <h5>Mary Applebaum</h5>
+              <p>UI/UX DESIGNER</p>
+              <p>
+                A Juneau, Alaska native, Mrs. Applebaum has come a long way
+                since her high school graduation all the way up to getting a
+                Brown University
+              </p>
+              <div class="icon_contact">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sign_up">
+        <div class="title_signup">
+          <span>Sign Up for</span>
+          <span>Email Updates!</span>
+        </div>
+        <p>
+          Knowing about all the recent developments in the industry is how you
+          should handle being an adman!
+        </p>
+        <div class="email">
+          <input type="text" placeholder="Your email here..." />
+          <button><a href="#">Submit</a></button>
+        </div>
+      </div>
+      <div class="details">
+        <div class="item_detail">
+          <img src="./assets/image/detail_address.png" alt="address" />
+          <h5>Address</h5>
+          <p>
+            908 New Hampshire Avenue Northwest #100, Washington, DC 20037,
+            United States
+          </p>
+        </div>
+        <div class="item_detail">
+          <img src="/assets/image/detail_phones.png" alt="phones" />
+          <h5>Phones</h5>
+          <p>
+            <span>Phone:</span> <span><a href="">+1 916-875-2235</a></span>
+          </p>
+          <p>
+            <span>Mobile:</span> <span><a href="">+1 916-875-2235</a></span>
+          </p>
+          <p>
+            <span>Fax:</span> <span><a href="">+1 916-875-2235</a></span>
+          </p>
+        </div>
+        <div class="item_detail">
+          <img src="./assets/image/detail_contact.png" alt="contacts" />
+          <h5>Contacts</h5>
+          <p><a href="#">adverting@demolink.org</a></p>
+          <p><a href="#">adverting-1@demolink.org</a></p>
+          <p><a href="#">adverting-2@demolink.org</a></p>
+        </div>
+        <div class="item_detail">
+          <img
+            src="./assets/image/detail_working_hours.png"
+            alt="workinghours"
+          />
+          <h5>Working Hours</h5>
+          <p>Monday-Friday: 9:00 – 18:00</p>
+          <p>Saturday: 11:00 – 17:00</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="item_contact">
+          <div class="template">
+            <p><span><a href="">Zemez</a></span><span> ©. All rights reserved.</span></p>
+          </div>
+        </div>
+        <div class="item_contact">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-behance"></i>
         </div>
       </div>
     </div>
